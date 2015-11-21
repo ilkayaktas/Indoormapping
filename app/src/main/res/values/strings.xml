@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Indoor Mapping</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="scan_content">SCAN\nCONTENT</string>
+    
+    <string name="time_prompt">Choose record time</string>
+    <string-array name="time_arrays">
+        <item>5 sec</item>
+        <item>10 sec</item>
+        <item>15 sec</item>
+        <item>20 sec</item>
+        <item>25 sec</item>
+        <item>30 sec</item>
+        <item>1 min</item>
+        <item>2 min</item>
+        <item>5 min</item>
+    </string-array>
+</resources>
