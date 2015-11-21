@@ -393,7 +393,7 @@ public class MainActivity extends Activity {
 	public void updateStickerList(final LeDevice dev){
 		if(isRecordStarted){
 			Log.i(TAG, "Sticker: " + dev.mName + " :: " + dev.mRssi + " Time: "+System.currentTimeMillis());
-			rssiRecords.add(new Sticker(dev.getBtDevice().getAddress().substring(0, 5), dev.mName, dev.mRssi, System.currentTimeMillis()));
+			rssiRecords.add(new Sticker(dev.getBtDevice().getAddress(), dev.mName, dev.mRssi, System.currentTimeMillis()));
 		}
         runOnUiThread(new Runnable() {
             public void run() {
